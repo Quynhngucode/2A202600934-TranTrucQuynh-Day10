@@ -1,0 +1,52 @@
+{
+  "input_rows": 23,
+  "output_rows": 23,
+  "corruptions": [
+    {
+      "type": "drop_latest_records",
+      "row_count": 2,
+      "paper_ids": [
+        "10.21203/rs.3.rs-9882260/v1",
+        "10.54254/2753-8818/2026.dl34055"
+      ]
+    },
+    {
+      "type": "blank_summary",
+      "row_count": 2,
+      "paper_ids": [
+        "10.22214/ijraset.2026.82233",
+        "10.32473/flairs.39.1.141782"
+      ]
+    },
+    {
+      "type": "inject_noise",
+      "row_count": 2,
+      "paper_ids": [
+        "10.36085/jsai.v9i1.9632",
+        "10.4018/979-8-3373-5017-2.ch003"
+      ]
+    },
+    {
+      "type": "truncate_title",
+      "row_count": 1,
+      "paper_ids": [
+        "10.55041/isjem07213"
+      ]
+    },
+    {
+      "type": "stale_published_date",
+      "row_count": 1,
+      "paper_ids": [
+        "10.1093/sleep/zsag091.0346"
+      ]
+    },
+    {
+      "type": "add_duplicate_rows",
+      "row_count": 2,
+      "paper_ids": [
+        "10.36085/jsai.v9i1.9632",
+        "10.4018/979-8-3373-5017-2.ch003"
+      ]
+    }
+  ]
+}

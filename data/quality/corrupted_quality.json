@@ -1,0 +1,23 @@
+{
+  "report_name": "corrupted_quality",
+  "row_count": 23,
+  "checks": {
+    "has_rows": true,
+    "paper_id_not_null": true,
+    "paper_id_unique": false,
+    "title_not_null": true,
+    "summary_not_null": false,
+    "summary_min_length": false,
+    "freshness_threshold_days": 180,
+    "fresh_enough": false
+  },
+  "stats": {
+    "paper_id_missing": 0,
+    "duplicate_paper_ids": 2,
+    "title_missing": 0,
+    "summary_missing": 2,
+    "short_summaries": 2,
+    "stale_rows": 1
+  },
+  "passed": false
+}
